@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+main{
+    background: url(grass.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#rectangle{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    background: rgba(111, 207, 151, 0.3);
+    text-align: center; 
+}
+.time{
+    font-size: 40px;
+    background-color: rgba(111, 207, 151, 0.8);
+    width: 800px;
+    margin: 0 auto;
+}
